@@ -29,6 +29,10 @@ mysql -u root mysql
 mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'dbpasswd';
 mysql> FLUSH PRIVILEGES;
 ```
+**Lưu ý**: Trong trường hợp đăng nhập MySQL bằng root mà bị gặp lỗi **Access denied** thì do MySQL bắt buộc phải đăng nhập **root** kèm với password
+  + Dùng lệnh sau để lấy password root ```sudo grep "temporary password" /var/log/mysqld.log ```
+  + Đăng nhập được root thì thay đổi mật khẩu root 
+
 Tạo 1 user mysql tên là **sguil**
 ```
 mysql> GRANT ALL PRIVILEGES ON sguildb.*
