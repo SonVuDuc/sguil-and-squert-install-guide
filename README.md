@@ -72,6 +72,8 @@ sudo yum install tcl-mysqltcl
 ```
 Để kiểm tra đuợc Tcl và các package đã được cài đặt hay chưa. Dùng lệnh **tclsh** để kiểm tra
 ![Screenshot from 2020-09-09 20-10-38](https://user-images.githubusercontent.com/32956424/92602691-ac8cfc80-f2d8-11ea-9604-0b801bb4afc2.png)
+![Screenshot from 2020-09-09 06-14-06](https://user-images.githubusercontent.com/32956424/92603324-069faa80-f264-11ea-9113-794e9981543d.png)
+
 
 ### Cài đặt OpenSSL
 
