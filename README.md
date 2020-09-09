@@ -9,3 +9,17 @@
   + mysql-tcl 3.052
   + Snort 2.2.9
 ## 2. Cài đặt
+### Cài đặt MySQL và tạo cơ sở dữ liệu cho sguil
+Install mysql-server:
+```
+sudo yum localinstall https://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
+sudo yum install mysql-server
+```
+Đăng nhập vào **root** của MySQL và thay đổi mật khẩu **root**
+```
+mysql -u root mysql
+```
+    
+    mysql> UPDATE user SET Password=PASSWORD('dbpasswd')
+           WHERE user='root';
+    mysql> FLUSH PRIVILEGES;
