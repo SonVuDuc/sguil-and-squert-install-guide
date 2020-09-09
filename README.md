@@ -71,11 +71,13 @@ sudo rpm -ivh tcl-mysqltcl-3.052-1.el7.x86_64.rpm
 sudo yum install tcl-mysqltcl
 ```
 Để kiểm tra đuợc Tcl và các package đã được cài đặt hay chưa. Dùng lệnh **tclsh** để kiểm tra
-![Screenshot from 2020-09-09 20-10-38](https://user-images.githubusercontent.com/32956424/92602691-ac8cfc80-f2d8-11ea-9604-0b801bb4afc2.png)
 ![Screenshot from 2020-09-09 06-14-06](https://user-images.githubusercontent.com/32956424/92603324-069faa80-f264-11ea-9113-794e9981543d.png)
 
 
 ### Cài đặt OpenSSL
-
-
-
+```
+cd ~
+wget https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/t/tcltls-1.6.7-2.el7.x86_64.rpm
+sudo rpm -ivh tcltls-1.6.7-2.el7.x86_64.rpm
+sudo yum install tcltls
+```
