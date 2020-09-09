@@ -29,7 +29,7 @@ mysql -u root mysql
 mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'dbpasswd';
 mysql> FLUSH PRIVILEGES;
 ```
-Tạo 1 user mysql tên là "sguil"
+Tạo 1 user mysql tên là **sguil**
 ```
 mysql> GRANT ALL PRIVILEGES ON sguildb.*
            TO sguil@localhost IDENTIFIED BY 'sguilpasswd';
@@ -39,7 +39,7 @@ Cd vào thư mục sguil đã git clone trước đó và chạy lệnh:
 ```
 sudo mysql -u sguil -p -e "CREATE DATABASE sguildb"
 ```
-Nhập password của user sguil đã tạo trước đó và dùng lệnh:
+Nhập password của user "**sguil**" đã tạo trước đó và dùng lệnh:
 ```
 sudo mysql -u sguil -p -D sguildb < ./server/sql_scripts/create_sguildb.sql
 ```
