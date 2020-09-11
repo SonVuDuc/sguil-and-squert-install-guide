@@ -2,7 +2,8 @@
 
 ## 1. Yêu cầu 
   + VM với RAM 4GB, CPU 2 cores và ổ cứng 25GB
-  + File ISO Security Onion
+  + VMware
+  + File ISO Security Onion download tại https://github.com/Security-Onion-Solutions/security-onion/blob/master/Verify_ISO.md
   
 ## 2. Cài đặt
 
