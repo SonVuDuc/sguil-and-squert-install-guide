@@ -117,7 +117,7 @@ Click vào icon Sguil ở Desktop
 
 ![Security Onion-2020-09-11-22-44-18](https://user-images.githubusercontent.com/32956424/92946052-55c22700-f480-11ea-8e45-6b0372317996.png)
 
-Sguil có khá nhiều usecase, trong đó tiêu biểu nhất là **Pcap Forensics** vầ **Evaluation**
+Sguil có khá nhiều usecase, trong đó tiêu biểu nhất là **Pcap Forensics**
 
 ### Pcap Forensics
 
@@ -151,12 +151,21 @@ Login vào squil, sẽ thấy rất nhiều alert từ file pcap trước đó
 
 
 
-### Evaluation
-
-
-
-
-
 ## 4. Squert
-
+**Squert** là 1 ứng dụng web dùng để truy vấn và xem event data lưu trong database của **Sguil**
 Click vào icon Squert ở Desktop, giao diện web của Squert sẽ xuất hiện, đăng nhập với username và password
+
+![Security Onion-2020-09-12-02-12-52](https://user-images.githubusercontent.com/32956424/92964265-038ffe80-f49e-11ea-8fdc-36013b1d58c0.png)
+
+Sau khi login, giao diện chính của Squert sẽ hiện ra
+
+![Security Onion-2020-09-12-02-13-05](https://user-images.githubusercontent.com/32956424/92964306-1571a180-f49e-11ea-8533-1a30b48a751c.png)
+
+Người dùng có thể lọc các **Event** theo địa chỉ IP bằng cách nhập địa chỉ IP muốn lọc vào ô **Filter**
+
+![Security Onion-2020-09-12-02-13-29](https://user-images.githubusercontent.com/32956424/92964386-32a67000-f49e-11ea-818d-3f3b5132ab25.png)
+
+Sau khi lọc Event, người dùng có thể xem chi tiết Event đó
+
+![Security Onion-2020-09-12-02-14-29](https://user-images.githubusercontent.com/32956424/92964422-3fc35f00-f49e-11ea-9668-2557e5093796.png)
+
