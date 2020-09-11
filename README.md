@@ -7,7 +7,35 @@
   
 ## 2. Cài đặt
 
-### 2.1 Cài đặt VM
+### 2.1 Verify file ISO và cài đặt VM
+
+Tạo 1 thư mục tên là SecurityOnion
+
+Download signing key và import key bằng lệnh 
+```
+wget https://raw.githubusercontent.com/Security-Onion-Solutions/security-onion/master/KEYS
+gpg --import KEYS
+```
+Download signature file cho file ISO
+```
+wget https://github.com/Security-Onion-Solutions/security-onion/raw/master/sigs/securityonion-16.04.7.1.iso.sig
+```
+
+Download ISO image
+```
+wget https://download.securityonion.net/file/Security-Onion-16/securityonion-16.04.7.1.iso
+```
+
+Verify file ISO bằng lệnh
+```
+gpg --verify securityonion-16.04.7.1.iso.sig securityonion-16.04.7.1.iso
+```
+
+Verify hoàn tất
+
+![Screenshot from 2020-09-12 00-51-30](https://user-images.githubusercontent.com/32956424/92957088-3207dc80-f492-11ea-99b2-36675858948a.png)
+
+Sau đó có thể cài đặt VM bằng file ISO
 
 ### 2.2 Cài đặt Security Onion
 
