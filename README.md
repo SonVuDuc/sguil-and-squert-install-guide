@@ -79,9 +79,17 @@ Chọn **Yes, proceed with the changes**
 ![Security Onion-2020-09-11-21-37-43](https://user-images.githubusercontent.com/32956424/92942227-85226500-f47b-11ea-8c6d-8c0241526bac.png)
 
 
-
-
-
 ## 3. Squil
+
+Click vào icon Sguil ở Desktop 
+
+![Security Onion-2020-09-11-22-42-40](https://user-images.githubusercontent.com/32956424/92945893-20b5d480-f480-11ea-9688-214708405d3d.png)
+
+Đăng nhập với username và password đã tạo trước đó, giao diện chính của Sguil sẽ hiện ra
+
+![Security Onion-2020-09-11-22-44-18](https://user-images.githubusercontent.com/32956424/92946052-55c22700-f480-11ea-8e45-6b0372317996.png)
+
+
+
 
 ## 4. Squert
