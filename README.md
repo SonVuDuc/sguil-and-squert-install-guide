@@ -1,13 +1,9 @@
-# Sguil Install Guide
+# Sguil và Squert Install Guide
 
 ## 1. Yêu cầu 
-  + VM Centos 7 với RAM 2GG và ổ cứng 150GB
-  + MySQL server 5.7
-  + Tcl 8.5
-  + Tclx 8.4
-  + TLS 1.6.7
-  + mysql-tcl 3.052
-  + Snort 2.2.9
+  + VM với RAM 4GB, CPU 2 cores và ổ cứng 25GB
+  + File ISO Security Onion
+  
 ## 2. Cài đặt
 
 Git clone repo của sguil bằng lệnh:
