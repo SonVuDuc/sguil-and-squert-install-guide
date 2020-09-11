@@ -9,7 +9,7 @@
 
 ### 2.1 Verify file ISO và cài đặt VM
 
-Tạo 1 thư mục tên là SecurityOnion
+Tạo 1 thư mục tên là SecurityOnion và change directories tới đó
 
 Download signing key và import key bằng lệnh 
 ```
