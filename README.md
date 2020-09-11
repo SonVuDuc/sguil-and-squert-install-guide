@@ -117,7 +117,46 @@ Click vào icon Sguil ở Desktop
 
 ![Security Onion-2020-09-11-22-44-18](https://user-images.githubusercontent.com/32956424/92946052-55c22700-f480-11ea-8e45-6b0372317996.png)
 
+Sguil có khá nhiều usecase, trong đó tiêu biểu nhất là **Pcap Forensics** vầ **Evaluation**
+
+### Pcap Forensics
+
+Dùng lệnh nmap ở 1 máy khác, tiến hành quét VM Security Onion
+
+![Security Onion-2020-09-12-01-45-52](https://user-images.githubusercontent.com/32956424/92961622-bf9afa80-f499-11ea-8bbd-d0edc7d1cfb6.png)
+
+Sguil lập tức sẽ phát hiện được Real Time Event thông qua các sensor
+
+Click chuột phải vào 1 alert, chọn Wireshark
+
+![Security Onion-2020-09-12-01-51-38](https://user-images.githubusercontent.com/32956424/92962073-94fd7180-f49a-11ea-9642-f6c72bc2668d.png)
+
+Màn hình wireshark sẽ hiện lên cùng với thông tin của alert đã chọn
+
+![Security Onion-2020-09-12-01-53-09](https://user-images.githubusercontent.com/32956424/92962173-c8d89700-f49a-11ea-88e8-295b4ab6f403.png)
+
+Một ví dụ khác là download những file pcap mẫu có sẵn từ https://www.malware-traffic-analysis.net/ để tiến hành phân tích
+
+Sử dụng lệnh tcpreplay 
+
+![Security Onion-2020-09-12-01-59-46](https://user-images.githubusercontent.com/32956424/92963048-0be73a00-f49c-11ea-8c6b-d11edc5112da.png)
+
+Đợi quá trình hoàn tất 
+
+![Security Onion-2020-09-12-02-00-35](https://user-images.githubusercontent.com/32956424/92963109-23bebe00-f49c-11ea-9a35-3c91e73dd309.png)
+
+Login vào squil, sẽ thấy rất nhiều alert từ file pcap trước đó
+
+![Security Onion-2020-09-12-02-01-03](https://user-images.githubusercontent.com/32956424/92963156-389b5180-f49c-11ea-9e43-e039fc4f731c.png)
+
+
+
+### Evaluation
+
+
 
 
 
 ## 4. Squert
+
+Click vào icon Squert ở Desktop, giao diện web của Squert sẽ xuất hiện, đăng nhập với username và password
