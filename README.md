@@ -153,6 +153,7 @@ Login vào squil, sẽ thấy rất nhiều alert từ file pcap trước đó
 
 ## 4. Squert
 **Squert** là 1 ứng dụng web dùng để truy vấn và xem event data lưu trong database của **Sguil**
+
 Click vào icon Squert ở Desktop, giao diện web của Squert sẽ xuất hiện, đăng nhập với username và password
 
 ![Security Onion-2020-09-12-02-12-52](https://user-images.githubusercontent.com/32956424/92964265-038ffe80-f49e-11ea-8fdc-36013b1d58c0.png)
